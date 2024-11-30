@@ -37,7 +37,7 @@ give @s stick[suspicious_stew_effects=[{id:"absorption", duration:200}]]
 give @s stick[writable_book_content={pages:["First page", "Second page"]}]
 give @s stick[written_book_content={author:"kennytv", title:"A book", generation:2, resolved:true, pages:[{raw:'"First page"', filtered:'"Filtered first page"'}]}]
 # trim: One with inlined material, one with inlined pattern
-give @s stick[trim={material:{asset_name:"amethyst", description:"Description", ingredient:"acacia_boat", item_model_index:0, override_armor_materials:{chainmail:"override_material"}}, pattern:"bolt", show_in_tooltip:true}]
+give @s stick[trim={material:{asset_name:"amethyst", description:"Description", ingredient:"acacia_boat", item_model_index:0, override_armor_materials:{chainmail:"override_material"}}, pattern:"raiser", show_in_tooltip:true}]
 give @s stick[trim={material:"amethyst", pattern:{asset_id:"asset_id", description:"Description", template_item:"acacia_boat", decal:true}, show_in_tooltip:true}]
 give @s stick[debug_stick_state={}]
 give @s stick[entity_data={id:"axolotl"}]
