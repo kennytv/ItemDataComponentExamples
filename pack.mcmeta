@@ -1,11 +1,15 @@
 {
     "pack": {
       "description": "Pack to go through all item data components",
-      "pack_format": 94,
-      "supported_formats": [41, 94]
+      "pack_format": 101,
+      "supported_formats": [41, 101]
     },
     "overlays": {
       "entries": [
+        {
+          "formats": 101,
+          "directory": "26.1"
+        },
         {
           "formats": 94,
           "directory": "1.21.11"
