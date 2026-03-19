@@ -90,7 +90,7 @@ give @s stick[damage_type="dry_out"]
 give @s stick[minimum_attack_charge=0.5f]
 give @s stick[use_effects={can_sprint:true,interact_vibrations:false,speed_multiplier:1f}]
 give @s stick[attack_range={min_reach:0.1f,max_reach:4f,min_creative_reach:0.2f,max_creative_reach:10f,hitbox_margin:0.4f,mob_factor:0.9f}]
-give @s stick[additional_trade_cost=2]
+# give @s stick[additional_trade_cost=2] # server-only
 give @s stick[dye="red"]
 
 # Entity data
